@@ -53,3 +53,4 @@ windows:
       - source /home/ic/ASRL/vtr3/warthog_onboard/ros2_ws/install/setup.bash
     panes:
       - ros2 run tf_relay relay # required for GD warthog
+      - ros2 run tf_relay cmd_vel_relay # xbox deadman switch workaround
